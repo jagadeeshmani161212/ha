@@ -3,7 +3,6 @@ set -e
 function error { echo -e "[Error] $*"; exit 1; }
 function warn  { echo -e "[Warning] $*"; }
 
-
 ARCH=$(uname -m)
 DOCKER_BINARY=/usr/bin/docker
 DOCKER_REPO=homeassistant
