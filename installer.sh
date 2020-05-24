@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 set -e
-
 function error { echo -e "[Error] $*"; exit 1; }
 function warn  { echo -e "[Warning] $*"; }
-
 warn "This installer is no longer supported."
 warn ""
 warn "Home Assistant might work today, tomorrow maybe not."
